@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+   
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+  
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+</style>
+
+
+
+</head>
+<body>
+    <div class="main container-fluid ">
+        <!--Bottom to Top-->
+        <button  class = " btn btn-outline-dark"  onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Reena </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse " id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll  " >
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactme.html">Contact Us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Blog.html">Blog </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link "href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link "href="services.html">services</a>
+                </li>
+              </ul>
+              <ul class="nav justify-content-endsocial-media-icons ">
+               
+                  <div class="social-media-icons">
+                    <a href="#" class="text-primary"><i class="fab fa-facebook fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-twitter fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-linkedin fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-instagram fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-github fa-1x"></i></a>
+                    <!-- Add more social media icons here -->
+                </div>
+                
+            </div>
+          </div>
+        </nav>
+
+       
+       
+       
+
+
+  
+ 
+  <div class="b-example-divider mt-5"></div>
+  
+
+  <div class="bg-dark text-secondary px-4 py-5 text-justify ">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white"></h1>
+      <div class="col-lg-6 mx-auto">
+         
+         <p class="fs-5 mb-4 text-white">As a software developer, I plays a crucial role in the design, development, and maintenance of software applications and systems. My work involves creating software that can solve real-world problems, streamline processes, and enhance the overall my experience. Here is some information about you as a software developer:.</p>
+         <div class="panel panel-default">
+          <div class="panel-heading fw-bold text-white">Qualification</div>
+          <div class="panel-body">
+            <ul class="list-group">
+              <li class="list-group-item">M.C.A</li>
+              <li class="list-group-item">B.S.C statistics</li>
+              
+            </ul>
+          </div>
+        </div>
+         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
+          <button type="button" onClick="location.href='/contactme.html'" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Contact Me</button>
+          <button type="button" onClick="location.href='/projects.html'" class="btn btn-outline-light btn-lg px-4">My Projects</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider mb-0"></div>
+  
+</main>
+        <nav class="navbar fixed-bottom bg-light align-items-center">
+          <div class="container align-items-center">
+            <div class="copyright">
+              &copy; Copyright <strong><span>MY Website</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits align-items-center">
+             
+              Designed by <a href="#">Reena Riju</a>
+            </div>
+          </div>
+        </nav>   
+    
+       
+</div>
+<!--Js-->
+<script>
+  // Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+// When the user clicks on the button, scroll to the top of the document
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!-- bootstrap js-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+
+</body>
+</html>

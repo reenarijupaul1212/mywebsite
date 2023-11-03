@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <div class="main container-fluid ">
+        <!--Bottom to Top-->
+        <button  class = " btn btn-outline-dark"  onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Reena</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse " id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll  " >
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactme.html">Contact Us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Blog.html">Blog </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link "href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link "href="services.html">services</a>
+                </li>
+              </ul>
+              <ul class="nav justify-content-endsocial-media-icons ">
+               
+                  <div class="social-media-icons">
+                    <a href="#" class="text-primary"><i class="fab fa-facebook fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-twitter fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-linkedin fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-instagram fa-1x"></i></a>
+                    <a href="#" class="text-primary"><i class="fab fa-github fa-1x"></i></a>
+                    <!-- Add more social media icons here -->
+                </div>
+                
+            </div>
+          </div>
+        </nav>
+<br>
+<br>
+        <div class="container bg-dark mt-5 mb-5 max-width  ">
+          <br>
+          <div class="card ">
+            <h5 class="card-header">Project1</h5>
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Website</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="contactme.html" class="btn btn-primary">Contact me</a>
+            </div>
+          </div> 
+          <div class="card">
+            <h5 class="card-header">Project 2</h5>
+            <div class="card-body">
+              <h5 class="card-title">AI Featured Shopping app</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="contactme.html" class="btn btn-primary">Contact me</a>
+            </div>
+          </div> 
+          <div class="card mb-5">
+            <h5 class="card-header">Project 3</h5>
+            <div class="card-body">
+              <h5 class="card-title">ERP System</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="contactme.html" class="btn btn-primary">Contact me</a>
+            </div>
+          </div>
+          <br>
+        </div>
+
+      
+        <nav class="navbar fixed-bottom bg-light align-items-center">
+          <div class="container align-items-center">
+            <div class="copyright">
+              &copy; Copyright <strong><span>MY Website</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits align-items-center">
+             
+              Designed by <a href="#">Reena Riju</a>
+            </div>
+          </div>
+        </nav>   
+    
+       
+</div>
+<!--Js-->
+<script>
+  // Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+// When the user clicks on the button, scroll to the top of the document
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<!-- bootstrap js-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
